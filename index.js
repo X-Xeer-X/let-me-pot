@@ -91,7 +91,7 @@ module.exports = function LetMePot(dispatch) {
         }
     });
 
-    dispatch.hook('S_CREATURE_CHANGE_HP', 1, (event) => {
+    dispatch.hook('S_CREATURE_CHANGE_HP', 6, (event) => {
 
         if (!enabled || !AUTOHP) return;
 
